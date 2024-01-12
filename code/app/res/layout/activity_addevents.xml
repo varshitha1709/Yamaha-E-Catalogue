@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Addevents">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="Events"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:id="@+id/addimg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_add_photo_alternate_24" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/purple_200"
+        app:boxStrokeColor="@color/purple_200"
+        app:counterOverflowTextColor="@color/black"
+        app:hintTextColor="@color/purple_200">
+
+        <EditText
+            android:id="@+id/etename"
+            style="@style/Edittext"
+            android:hint="Enter Event Name" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/purple_200"
+        app:boxStrokeColor="@color/purple_200"
+        app:counterOverflowTextColor="@color/black"
+        app:hintTextColor="@color/purple_200">
+        <EditText
+            android:id="@+id/eteguest"
+            style="@style/Edittext"
+            android:hint="Enter Event Chief Guest" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/purple_200"
+        app:boxStrokeColor="@color/purple_200"
+        app:counterOverflowTextColor="@color/black"
+        app:hintTextColor="@color/purple_200">
+
+        <EditText
+            android:id="@+id/etestart"
+            style="@style/Edittext"
+            android:hint="Enter Start Date" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/purple_200"
+        app:boxStrokeColor="@color/purple_200"
+        app:counterOverflowTextColor="@color/black"
+        app:hintTextColor="@color/purple_200">
+        <EditText
+            android:id="@+id/etend"
+            style="@style/Edittext"
+            android:hint="Enter End Date" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/purple_200"
+        app:boxStrokeColor="@color/purple_200"
+        app:counterOverflowTextColor="@color/black"
+        app:hintTextColor="@color/purple_200">
+        <EditText
+            android:id="@+id/eteplace"
+            style="@style/Edittext"
+            android:hint="Enter Event Place" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/purple_200"
+        app:boxStrokeColor="@color/purple_200"
+        app:counterOverflowTextColor="@color/black"
+        app:hintTextColor="@color/purple_200">
+        <EditText
+            android:id="@+id/etedec"
+            style="@style/Edittext"
+            android:hint="Enter Event Description" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/purple_200"
+        app:boxStrokeColor="@color/purple_200"
+        app:counterOverflowTextColor="@color/black"
+        app:hintTextColor="@color/purple_200">
+        <EditText
+            android:id="@+id/etcity"
+            style="@style/Edittext"
+            android:hint="Enter Event City" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btnadd"
+        style="@style/Button"
+        android:text="Add Event"
+        android:background="@drawable/btn1"
+        android:textSize="18sp"/>
+
+
+
+
+</LinearLayout>

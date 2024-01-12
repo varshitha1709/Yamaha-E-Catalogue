@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bike E-Catalogue Mobile App</string>
+    <string name="empower_your_ride">Empower Your Ride</string>
+    <string name="welcome_admin"><i><u>WELCOME ADMIN</u></i></string>
+    <string name="ride_for_life"><i><u>Ride for Life</u></i></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="title_activity_showlocation">Showlocation</string>
+</resources>

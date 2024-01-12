@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".User.readshowrooms">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:weightSum="3">
+
+           <com.google.android.material.textfield.TextInputLayout
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="2"
+               android:layout_margin="10dp"
+               android:textColorHint="@color/purple_200"
+               app:boxStrokeColor="@color/purple_200"
+               app:counterOverflowTextColor="@color/black"
+               app:hintTextColor="@color/purple_200">
+
+               <EditText
+                   android:id="@+id/etcity"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@null"
+                   android:hint="Enter City name(Tirupati)" />
+
+           </com.google.android.material.textfield.TextInputLayout>
+
+
+           <ImageView
+               android:id="@+id/imsearch"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:layout_margin="10dp"
+               android:src="@drawable/search"/>
+       </LinearLayout>
+
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/listevent"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_margin="5dp"/>
+
+   </LinearLayout>
+
+</FrameLayout>
